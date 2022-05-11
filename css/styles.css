@@ -110,7 +110,7 @@ table {
 
 #stockText {
 	position: absolute;
-  top: 30%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -119,4 +119,19 @@ table {
 	position: relative;
 	text-align: center;
 	color: white;
+}
+
+.contentPanel {
+	background-color: white;
+	height: 600px;
+	text-align: center;
+}
+
+.contentPanel img {
+	float: left;
+	margin: 40px;
+}
+
+.contentPanel div {
+	padding-top: 120px;
 }
